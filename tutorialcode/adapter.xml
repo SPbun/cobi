@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<adapter>
+	<dependencies>
+		<library name="mlib.so" />
+	</dependencies>
+
+	<code name="funcenterexit">
+		<enter>enterFunction(@ROUTINE@,@FILE@,@LINE@);</enter>
+		<exit>exitFunction(@ROUTINE@, @FILE@, @LINE@);</exit>
+	</code>
+
+	<code name="countfuncenter">
+		<variables>
+			<var type="int" size="4" name="i" />
+		</variables>
+		<init>
+			i = 0;
+		</init>
+		<enter>i = i + 1;enterFunctionShowCount(@ROUTINE@,i);</enter>
+	</code>
+</adapter>

@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/scalasca_soft/!svn/ver/6012/Cobi/trunk/cobi/xmlspecs
+END
+gbi_schema_adapter.xml
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/scalasca_soft/!svn/ver/5652/Cobi/trunk/cobi/xmlspecs/gbi_schema_adapter.xml
+END
+demoadapter.xml
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/scalasca_soft/!svn/ver/5652/Cobi/trunk/cobi/xmlspecs/demoadapter.xml
+END
+gbi_schema_filter.xml
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/scalasca_soft/!svn/ver/5652/Cobi/trunk/cobi/xmlspecs/gbi_schema_filter.xml
+END

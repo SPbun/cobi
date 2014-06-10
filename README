@@ -1,0 +1,15 @@
+=== COBI README ===
+
+Cobi is an experimental tool for binary instrumentation. 
+For further details please look at the manual (manual.pdf)
+
+See INSTALL for notes regarding installation.
+
+=== Dependencies ===
+
+ * Dyninst 7
+ * LibElf
+ * LibDwarf
+ * Xerces
+ * Nasm
+ * Boost

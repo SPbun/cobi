@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/scalasca_soft/!svn/ver/6072/Cobi/trunk/cobi/src/instrumenter
+END
+dependency.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/scalasca_soft/!svn/ver/6034/Cobi/trunk/cobi/src/instrumenter/dependency.cpp
+END
+idregister.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/scalasca_soft/!svn/ver/6034/Cobi/trunk/cobi/src/instrumenter/idregister.cpp
+END
+cobiconfig.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/scalasca_soft/!svn/ver/6049/Cobi/trunk/cobi/src/instrumenter/cobiconfig.cpp
+END
+instrumentablefunction.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/scalasca_soft/!svn/ver/6034/Cobi/trunk/cobi/src/instrumenter/instrumentablefunction.cpp
+END
+callsiteinstrumentation.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/scalasca_soft/!svn/ver/6072/Cobi/trunk/cobi/src/instrumenter/callsiteinstrumentation.cpp
+END
+variable.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/scalasca_soft/!svn/ver/6034/Cobi/trunk/cobi/src/instrumenter/variable.cpp
+END
+adapterconfig.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/scalasca_soft/!svn/ver/6058/Cobi/trunk/cobi/src/instrumenter/adapterconfig.cpp
+END
+instrument.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/scalasca_soft/!svn/ver/6067/Cobi/trunk/cobi/src/instrumenter/instrument.cpp
+END
+functioninstrumentation.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/scalasca_soft/!svn/ver/6049/Cobi/trunk/cobi/src/instrumenter/functioninstrumentation.cpp
+END
+spectemplates.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/scalasca_soft/!svn/ver/6058/Cobi/trunk/cobi/src/instrumenter/spectemplates.cpp
+END
+adapterparser.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/scalasca_soft/!svn/ver/6067/Cobi/trunk/cobi/src/instrumenter/adapterparser.cpp
+END
+loopinstrumentation.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/scalasca_soft/!svn/ver/6034/Cobi/trunk/cobi/src/instrumenter/loopinstrumentation.cpp
+END

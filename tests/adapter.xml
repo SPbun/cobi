@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<adapter>
+	<dependencies>
+		<library name="mlib.so" />
+	</dependencies>
+
+	<code name="funcenterexit">
+		<enter>enterFunction(@ROUTINE@, @FILE@, @LINE@);</enter>
+		<exit>exitFunction(@ROUTINE@, @FILE@, @LINE@);</exit>
+	</code>
+
+	<code name="loopfull">
+		<before>msPrintStr("B  ".@LOOP@." ".@ADDRESS@."\n");</before>
+		<enter>msPrintStr("EN ".@LOOP@." ".@ADDRESS@."\n");</enter>
+		<exit>msPrintStr("EX ".@LOOP@." ".@ADDRESS@."\n");</exit>
+		<after>msPrintStr("A  ".@LOOP@." ".@ADDRESS@."\n");</after>
+	</code>
+
+	<code name="callsites">
+		<before>
+			msPrintStr("before: ".@CALLEDROUTINE@." ".@LINE@."\n");		
+		</before>
+		<after>
+			msPrintStr("after: ".@CALLEDROUTINE@." ".@LINE@."\n");
+		</after>
+	</code>
+
+	<globalvars>
+		<var name="j" type="int" size="4" />
+	</globalvars>
+
+	<code name="count">
+		<variables>
+			<var type="int" size="4" name="i" />
+		</variables>
+		<init>
+			i = 0;
+		</init>
+		<enter>
+			i = i + 1;
+			j = j + 1;
+		</enter>
+		<finalize>
+			msPrint(@ROUTINE@." count: ",i);
+		</finalize> 
+	</code>
+
+	<code name="total">
+		<init>
+			j = 0;
+		</init>
+		<finalize>
+			msPrint("total calls: ", j);
+		</finalize>
+	</code>
+
+	<code name="param">
+		<enter>msPrint("first param: ",@1@);
+		       msPrint("second param: ",@2@);
+		</enter>
+	</code>
+
+	<code name="thrash">
+		<exit>
+			thrashFloat();
+		</exit>
+	</code>
+</adapter>

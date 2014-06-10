@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<filters>
+	<filter name="tutorial" instrument="functions=funcenterexit" start="none">
+	<include>
+		<functionnames>main foo</functionnames>
+	</include>
+	</filter>
+
+	<filter name="count" instrument="functions=count" start="none">
+	<include>
+		<functionnames>foo bar</functionnames>
+	</include>
+	</filter>
+	
+	<filter name="totalcount" instrument="functions=total" start="none">
+	<include><functionnames>main</functionnames></include>
+	</filter>
+
+	<filter name="param" instrument="functions=param" start="none">
+	<include><functionnames>foo</functionnames></include>
+	</filter>
+
+	<filter name="regex" instrument="functions=funcenterexit" start="none">
+	<include><functionnames match="regex">main foo __.*</functionnames></include>
+	</filter>
+
+	<filter name="thrash" instrument="functions=thrash" start="none">
+        <include><functionnames>get22 get55</functionnames></include>
+        </filter>
+	
+	<filter name="stack" instrument="functions=funcenterexit" start="none">
+	<include><functionnames>main one two</functionnames></include>
+	</filter>
+
+	<filter name="loops" instrument="functions=funcenterexit,loops=loopfull" start="none">
+	<include><functionnames>main loops</functionnames></include>
+	<loops><true /></loops>
+	</filter>
+
+	<filter name="loopsone" instrument="functions=funcenterexit,loops=loopfull" start="none">
+	<include><functionnames>main loops</functionnames></include>
+	<loops names="loop_1,loop_1.1.1"><true /></loops>
+	</filter>
+
+	<filter name="callsites" instrument="callsites" start="none">
+	<include><true /></include>
+	<callsites><functionnames>foo bar</functionnames></callsites>
+	</filter>
+
+	<filter name="mpipath" instrument="functions=funcenterexit" start="none">
+        <include>
+                <property name="path">
+			<and><functionnames match="prefix">MPI mpi</functionnames>
+			     <not><functionnames>MPI_Wtime MPI_Comm_rank mpi_comm_rank mpi_wtime mpi_comm_rank_ mpi_wtime_</functionnames></not>
+			</and>
+		</property>
+        </include>
+	</filter>
+</filters>

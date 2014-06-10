@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/scalasca_soft/!svn/ver/5652/Cobi/trunk/cobi/xmlschemas
+END
+schema_instrumentation.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/scalasca_soft/!svn/ver/5652/Cobi/trunk/cobi/xmlschemas/schema_instrumentation.xsd
+END
+schema_filter.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/scalasca_soft/!svn/ver/5652/Cobi/trunk/cobi/xmlschemas/schema_filter.xsd
+END

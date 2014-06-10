@@ -1,0 +1,80 @@
+10
+
+dir
+6573
+https://svn.version.fz-juelich.de/scalasca_soft/Cobi/trunk/cobi/src
+https://svn.version.fz-juelich.de/scalasca_soft
+
+
+
+2011-05-06T14:48:20.176369Z
+6525
+lorenz
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+5d11c3e8-6a13-0410-ae4d-8be3a2c8aaae
+
+instrumenter
+dir
+
+xml
+dir
+
+browser
+dir
+
+mutatee
+dir
+
+filter
+dir
+
+main.cpp
+file
+
+
+
+
+2010-12-15T10:11:52.000000Z
+9b29ced8220926d0be8d5218c054a4d4
+2010-12-06T09:43:57.160378Z
+6086
+mussler
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+18705
+
+generator
+dir
+

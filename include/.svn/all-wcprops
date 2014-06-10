@@ -1,0 +1,185 @@
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/scalasca_soft/!svn/ver/6086/Cobi/trunk/cobi/include
+END
+implcontexts.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/scalasca_soft/!svn/ver/6034/Cobi/trunk/cobi/include/implcontexts.h
+END
+properties.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/scalasca_soft/!svn/ver/6034/Cobi/trunk/cobi/include/properties.h
+END
+callgraph.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/scalasca_soft/!svn/ver/6034/Cobi/trunk/cobi/include/callgraph.h
+END
+adapterparser.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/scalasca_soft/!svn/ver/6034/Cobi/trunk/cobi/include/adapterparser.h
+END
+ifunction.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/scalasca_soft/!svn/ver/6034/Cobi/trunk/cobi/include/ifunction.h
+END
+parserexceptions.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/scalasca_soft/!svn/ver/6034/Cobi/trunk/cobi/include/parserexceptions.h
+END
+patterns.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/scalasca_soft/!svn/ver/6034/Cobi/trunk/cobi/include/patterns.h
+END
+readableadapter.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/scalasca_soft/!svn/ver/6058/Cobi/trunk/cobi/include/readableadapter.h
+END
+idregister.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/scalasca_soft/!svn/ver/6034/Cobi/trunk/cobi/include/idregister.h
+END
+filterparser.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/scalasca_soft/!svn/ver/6034/Cobi/trunk/cobi/include/filterparser.h
+END
+cobiconfig.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/scalasca_soft/!svn/ver/6049/Cobi/trunk/cobi/include/cobiconfig.h
+END
+instrumentablefunction.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/scalasca_soft/!svn/ver/6034/Cobi/trunk/cobi/include/instrumentablefunction.h
+END
+mutatee.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/scalasca_soft/!svn/ver/6086/Cobi/trunk/cobi/include/mutatee.h
+END
+adapterconfig.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/scalasca_soft/!svn/ver/6058/Cobi/trunk/cobi/include/adapterconfig.h
+END
+nodehandlers.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/scalasca_soft/!svn/ver/6034/Cobi/trunk/cobi/include/nodehandlers.h
+END
+rule.h
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/scalasca_soft/!svn/ver/6034/Cobi/trunk/cobi/include/rule.h
+END
+filters.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/scalasca_soft/!svn/ver/6034/Cobi/trunk/cobi/include/filters.h
+END
+spectemplates.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/scalasca_soft/!svn/ver/6034/Cobi/trunk/cobi/include/spectemplates.h
+END
+xmlparser.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/scalasca_soft/!svn/ver/6034/Cobi/trunk/cobi/include/xmlparser.h
+END
+implproperties.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/scalasca_soft/!svn/ver/6034/Cobi/trunk/cobi/include/implproperties.h
+END
+dependency.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/scalasca_soft/!svn/ver/6034/Cobi/trunk/cobi/include/dependency.h
+END
+snippetfactories.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/scalasca_soft/!svn/ver/6034/Cobi/trunk/cobi/include/snippetfactories.h
+END
+browser.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/scalasca_soft/!svn/ver/6034/Cobi/trunk/cobi/include/browser.h
+END
+context.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/scalasca_soft/!svn/ver/6034/Cobi/trunk/cobi/include/context.h
+END
+variable.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/scalasca_soft/!svn/ver/6034/Cobi/trunk/cobi/include/variable.h
+END
+generator.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/scalasca_soft/!svn/ver/6034/Cobi/trunk/cobi/include/generator.h
+END
+instrumentations.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/scalasca_soft/!svn/ver/6034/Cobi/trunk/cobi/include/instrumentations.h
+END
+codeparsertest.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/scalasca_soft/!svn/ver/6034/Cobi/trunk/cobi/include/codeparsertest.h
+END
+codeparser.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/scalasca_soft/!svn/ver/6034/Cobi/trunk/cobi/include/codeparser.h
+END
+ruletree.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/scalasca_soft/!svn/ver/6034/Cobi/trunk/cobi/include/ruletree.h
+END

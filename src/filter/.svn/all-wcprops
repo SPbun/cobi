@@ -1,0 +1,155 @@
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/scalasca_soft/!svn/ver/6067/Cobi/trunk/cobi/src/filter
+END
+countcallee.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/scalasca_soft/!svn/ver/6034/Cobi/trunk/cobi/src/filter/countcallee.cpp
+END
+filterelement.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/scalasca_soft/!svn/ver/6034/Cobi/trunk/cobi/src/filter/filterelement.cpp
+END
+patterns.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/scalasca_soft/!svn/ver/6034/Cobi/trunk/cobi/src/filter/patterns.cpp
+END
+filterset.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/scalasca_soft/!svn/ver/6034/Cobi/trunk/cobi/src/filter/filterset.cpp
+END
+filterparser.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/scalasca_soft/!svn/ver/6067/Cobi/trunk/cobi/src/filter/filterparser.cpp
+END
+templatepropfactory.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/scalasca_soft/!svn/ver/6034/Cobi/trunk/cobi/src/filter/templatepropfactory.cpp
+END
+depth.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/scalasca_soft/!svn/ver/6034/Cobi/trunk/cobi/src/filter/depth.cpp
+END
+calledinloop.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/scalasca_soft/!svn/ver/6034/Cobi/trunk/cobi/src/filter/calledinloop.cpp
+END
+hasloop.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/scalasca_soft/!svn/ver/6034/Cobi/trunk/cobi/src/filter/hasloop.cpp
+END
+nodehandlers.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/scalasca_soft/!svn/ver/6034/Cobi/trunk/cobi/src/filter/nodehandlers.cpp
+END
+matchstrings.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/scalasca_soft/!svn/ver/6034/Cobi/trunk/cobi/src/filter/matchstrings.cpp
+END
+exitpoints.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/scalasca_soft/!svn/ver/6034/Cobi/trunk/cobi/src/filter/exitpoints.cpp
+END
+islibraryfunction.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/scalasca_soft/!svn/ver/6034/Cobi/trunk/cobi/src/filter/islibraryfunction.cpp
+END
+mccabe.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/scalasca_soft/!svn/ver/6047/Cobi/trunk/cobi/src/filter/mccabe.cpp
+END
+enterpoints.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/scalasca_soft/!svn/ver/6034/Cobi/trunk/cobi/src/filter/enterpoints.cpp
+END
+propertyfactory.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/scalasca_soft/!svn/ver/6034/Cobi/trunk/cobi/src/filter/propertyfactory.cpp
+END
+retfloatordouble.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/scalasca_soft/!svn/ver/6034/Cobi/trunk/cobi/src/filter/retfloatordouble.cpp
+END
+hasoverlay.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/scalasca_soft/!svn/ver/6034/Cobi/trunk/cobi/src/filter/hasoverlay.cpp
+END
+filter.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/scalasca_soft/!svn/ver/6034/Cobi/trunk/cobi/src/filter/filter.cpp
+END
+countinst.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/scalasca_soft/!svn/ver/6034/Cobi/trunk/cobi/src/filter/countinst.cpp
+END
+ruletree.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/scalasca_soft/!svn/ver/6034/Cobi/trunk/cobi/src/filter/ruletree.cpp
+END
+callpath.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/scalasca_soft/!svn/ver/6034/Cobi/trunk/cobi/src/filter/callpath.cpp
+END
+sourcevolume.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/scalasca_soft/!svn/ver/6034/Cobi/trunk/cobi/src/filter/sourcevolume.cpp
+END
+countcallsites.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/scalasca_soft/!svn/ver/6034/Cobi/trunk/cobi/src/filter/countcallsites.cpp
+END
+callgraph.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/scalasca_soft/!svn/ver/6034/Cobi/trunk/cobi/src/filter/callgraph.cpp
+END

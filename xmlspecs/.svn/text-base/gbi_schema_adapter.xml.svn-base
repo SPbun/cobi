@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           targetNamespace="scalasca.gbi"
+           xmlns="scalasca.gbi.adapter">
+               
+    <xs:complexType name="dependencyContainer">
+        <xs:sequence>
+            <xs:element name="library" minOccurs="1" maxOccurs="unbounded">
+                <xs:complexType>
+                    <xs:attribute name="name" type="xs:string" use="required" />
+                </xs:complexType>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="instrumentationContainerType">
+        <xs:sequence>
+            <xs:element name="dependencies" type="dependencyContainer" minOccurs="0" maxOccurs="1" />
+            <xs:element name="code" minOccurs="0" maxOccurs="unbounded">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="vars" minOccurs="0" maxOccurs="1">
+                            <xs:complexType>
+                            <xs:sequence>
+                                <xs:element name="variable" minOccurs="0" maxOccurs="unbounded">
+                                    <xs:complexType>
+                                    <xs:attribute name="name" use="required" type="xs:string" />
+                                    <xs:attribute name="size" use="required" type="xs:int" />
+                                    </xs:complexType>
+                                </xs:element>
+                            </xs:sequence>
+                            </xs:complexType>
+                        </xs:element>
+                        <xs:element name="enter" minOccurs="0" maxOccurs="1" type="xs:string" />
+                        <xs:element name="exit" minOccurs="0" maxOccurs="1" type="xs:string" />
+                        <xs:element name="before" minOccurs="0" maxOccurs="1" type="xs:string" />
+                        <xs:element name="after" minOccurs="0" maxOccurs="1" type="xs:string" />
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:element name="instrumentation" type="instrumentationContainerType" />
+
+</xs:schema>

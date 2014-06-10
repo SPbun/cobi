@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/scalasca_soft/!svn/ver/6525/Cobi/trunk/cobi/src/mutatee
+END
+dynfactory.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/scalasca_soft/!svn/ver/6525/Cobi/trunk/cobi/src/mutatee/dynfactory.cpp
+END
+mutatee.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/scalasca_soft/!svn/ver/6049/Cobi/trunk/cobi/src/mutatee/mutatee.cpp
+END
+function.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/scalasca_soft/!svn/ver/6034/Cobi/trunk/cobi/src/mutatee/function.cpp
+END
+module.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/scalasca_soft/!svn/ver/6034/Cobi/trunk/cobi/src/mutatee/module.cpp
+END
+loop.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/scalasca_soft/!svn/ver/6034/Cobi/trunk/cobi/src/mutatee/loop.cpp
+END
+virtualfunction.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/scalasca_soft/!svn/ver/6034/Cobi/trunk/cobi/src/mutatee/virtualfunction.cpp
+END

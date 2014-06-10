@@ -1,0 +1,11 @@
+=== COBI ONLY INSTALL ===
+
+You can find a detailed description in the manual, including explainations on how to build the dependencies.
+
+Edit the Makefile.conf according to where the dependencies are installed.
+
+Invoke the following command to build the instrumenter:
+
+make {-j3}
+
+This leaves you with the "cobi" binary, which is everything you need.

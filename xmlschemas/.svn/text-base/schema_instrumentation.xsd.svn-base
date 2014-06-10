@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           targetNamespace="genericinstrumenter"
+           xmlns="genericinstrumenter">
+<xs:element name="instrumentation" use="required">
+    <xs:simpleType name="codeblock" type="xs:string" />
+
+    <xs:complexType name="varlist">
+        <xs:choice>
+            <xs:element name="var" type="xs:string" />
+        </xs:choice>
+    </xs:complexType>
+
+    <xs:complexType name="instrument">
+        <xs:attribute name="name" type="xs:string" />
+        <xs:attribute name="instrument" type="xs:string" />
+        <xs:attribute name="start" type="xs:string" />
+        
+        <xs:choice>
+            <xs:element name="variables" type="varlist" />
+            <xs:element name="init" type="codeblock" />
+            <xs:element name="enter" type="codeblock" />
+            <xs:element name="exit" type="codeblock" />
+            <xs:element name="before" type="codeblock" />
+            <xs:element name="after" type="codeblock" />
+        </xs:choice>
+    </xs:complexType>
+
+    <xs:complexType>
+        <xs:element name="dependencies" type="depType" />
+        <xs:choice>
+            <xs:element name="code" type="instrument" />
+            <xs:element name="function" type="instrument" />
+            <xs:element name="callsite" type="instrument" />
+            <xs:element name="loop" type="instrument" />
+            <xs:element name="loopbody" type="instrument" />
+        </xs:choice>
+    </xs:complexType>
+</xs:element>
+</xs:schema>

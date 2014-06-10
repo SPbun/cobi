@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/scalasca_soft/!svn/ver/5660/Cobi/trunk/cobi/tutorialcode
+END
+adapter.xml
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/scalasca_soft/!svn/ver/5660/Cobi/trunk/cobi/tutorialcode/adapter.xml
+END
+filter.xml
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/scalasca_soft/!svn/ver/5660/Cobi/trunk/cobi/tutorialcode/filter.xml
+END
+main.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/scalasca_soft/!svn/ver/5660/Cobi/trunk/cobi/tutorialcode/main.cpp
+END
+lib.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/scalasca_soft/!svn/ver/5660/Cobi/trunk/cobi/tutorialcode/lib.cpp
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/scalasca_soft/!svn/ver/5660/Cobi/trunk/cobi/tutorialcode/Makefile
+END

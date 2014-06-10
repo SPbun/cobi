@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<filters>
+	<filter name="tutorial" instrument="functions=funcenterexit" start="none">
+	<include>
+		<functionnames>main foo</functionnames>
+	</include>
+	</filter>
+
+	<filter name="tutcount" instrument="functions=countfuncenter" start="none">
+	<include>
+		<functionnames>foo</functionnames>
+	</include>
+	</filter>
+</filters>

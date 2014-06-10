@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           targetNamespace="genericinstrumenter"
+           xmlns="genericinstrumenter">
+
+    <xs:complexType name="filterRoot">
+        <xs:attribute name="name" type="xs:string" />
+        <xs:attribute name="instrument" type="xs:string" use="required" />
+        <xs:attribute name="start" type="xs:string" use="required" />
+        <xs:choice>
+            <xs:element name="include" type="filterType" />
+            <xs:element name="exclude" type="filterType" />
+            <xs:element name="not" type="filterType" />
+            <xs:element name="and" type="filterType" />
+            <xs:element name="or" type="filterType" />
+            <xs:element name="true" type="filterType" />
+            <xs:element name="false" type="filterType" />
+            <xs:element name="functionnames" type="xs:string" />
+            <xs:element name="modulenames" type="xs:string" />
+            <xs:element name="names" type="xs:string" />
+            <xs:element name="property" type="xs:string" />
+        </xs:choice>
+    </xs:complexType>
+
+    <xs:complexType name="filterType">
+        <xs:choice>
+            <xs:element name="not" type="filterType" />
+            <xs:element name="and" type="filterType" />
+            <xs:element name="or" type="filterType" />
+            <xs:element name="functionnames" type="funcnameType" />
+        </xs:choice>
+    </xs:complexType>
+
+    <xs:element name="filters" use="required">
+        <xs:complexType>
+            <xs:choice>
+                <xs:element name="filter" type="filterRoot" />
+            </xs:choice>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

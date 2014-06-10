@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/scalasca_soft/!svn/ver/6410/Cobi/trunk/cobi/tests
+END
+adapter.xml
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/scalasca_soft/!svn/ver/6027/Cobi/trunk/cobi/tests/adapter.xml
+END
+param.c
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/scalasca_soft/!svn/ver/5773/Cobi/trunk/cobi/tests/param.c
+END
+filter.xml
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/scalasca_soft/!svn/ver/6028/Cobi/trunk/cobi/tests/filter.xml
+END
+main.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/scalasca_soft/!svn/ver/5769/Cobi/trunk/cobi/tests/main.cpp
+END
+lib.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/scalasca_soft/!svn/ver/5938/Cobi/trunk/cobi/tests/lib.cpp
+END
+thrash.c
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/scalasca_soft/!svn/ver/5814/Cobi/trunk/cobi/tests/thrash.c
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/scalasca_soft/!svn/ver/6762/Cobi/trunk/cobi/tests/Makefile
+END
+loops.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/scalasca_soft/!svn/ver/5938/Cobi/trunk/cobi/tests/loops.cpp
+END
